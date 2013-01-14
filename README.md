@@ -1,2 +1,4 @@
-C--APIDesign
+CppAPIDesign
+
+C++APIDesignの写経レポジトリです。
 ============

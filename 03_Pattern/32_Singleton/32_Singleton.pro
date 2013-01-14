@@ -3,8 +3,10 @@ CONFIG += console
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    singleton.cpp
+    singleton.cpp \
+    monostate.cpp
 
 HEADERS += \
-    singleton.h
+    singleton.h \
+    monostate.h
 

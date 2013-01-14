@@ -10,7 +10,10 @@ public:
     ~AutoTimer();
 
 private:
-    class Impl;
+    AutoTimer(const AutoTimer&);
+    const AutoTimer& operator=(const AutoTimer&);
+
+    class Impl;  // ŽÀ‘•‚ðImplƒNƒ‰ƒX‚É‰B•Á
     Impl* mImpl_;
 };
 
